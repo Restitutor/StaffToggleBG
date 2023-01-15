@@ -1,0 +1,11 @@
+name: StaffToggleBG
+version: '${project.version}'
+main: me.restitutor.stafftogglebg.StaffToggleBG
+depends: [LuckPerms]
+commands:
+  staff:
+    usage: /staff
+    description: toggle staff mode
+    permission: stafftoggle.toggle
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.8.0

@@ -1,0 +1,11 @@
+settings:
+  adminGroup: admin
+  defaultMins: 10
+messages:
+  error: "An internal error occurred."
+  help:
+    - "StaffToggle help:"
+    - "- &f/staff on (time)"
+    - "- &f/staff off"
+  noPerm: "You do not have permission to run this!"
+  notPlayer: "Only players can run this command."
